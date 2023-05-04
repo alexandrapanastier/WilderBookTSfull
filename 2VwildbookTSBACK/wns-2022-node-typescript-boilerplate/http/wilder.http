@@ -1,0 +1,18 @@
+POST http://localhost:5000/api/wilder
+Content-Type: application/json
+
+{
+    "name": "Alexis",
+    "city": "Paris"
+}
+###
+PUT http://localhost:5000/api/addskill
+Content-Type: application/json
+
+{
+    "wilderName": "Lisa",
+    "skillName": "React"
+}
+
+###
+GET http://localhost:5000/api/wilder
